@@ -1,0 +1,6 @@
+title = "Ryan Hinson"
+url = "https://rnh.bio"
+description = "Writing on platform engineering, observability, and minds."
+github = "rnhinson"
+# Set this to show an email link in the nav and footer, e.g. "you@rnh.bio".
+email = ""

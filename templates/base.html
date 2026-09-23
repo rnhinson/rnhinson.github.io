@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="{{ site }}" href="/feed.xml">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<header>
+<a class="name" href="/">{{ site }}</a>
+<nav aria-label="Site">{{ nav }}<button id="theme" type="button" hidden>dark</button></nav>
+</header>
+{{ body }}
+<script src="/static/theme.js"></script>
+</body>
+</html>
